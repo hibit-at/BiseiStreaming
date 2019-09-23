@@ -66,7 +66,7 @@ if counter > 0:
     for ids in idlist_unique:
         cURL = cURL + ids + '/'
     if len(idlist_unique) == 1: #idが一個だけなら複数窓じゃなく純正twitch
-        cURL = 'https://www.twitch.tv/' + tid
+        cURL = 'https://www.twitch.tv/' + idlist_unique[0]
 
     #名前リストを作成
     print (namelist)
